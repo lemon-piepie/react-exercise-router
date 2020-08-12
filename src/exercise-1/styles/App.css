@@ -3,14 +3,25 @@
     line-height: 80px;
     background-color: grey;
 }
-.home, .profile, .about{
+.home, .profile, .about, .products{
     text-decoration: none;
     font-size: 20px;
     margin-right: 50px;
     float: right;
 }
+
 p{
     font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 100px;
+}
+h1{
+    height: 40px;
+    line-height: 40px;
+    margin-left: 100px;
+}
+h3{
     height: 30px;
     line-height: 30px;
     margin-left: 100px;

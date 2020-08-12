@@ -15,7 +15,7 @@ class App extends Component {
           <NavLink to = "/about" className = "about" >About Us</NavLink>
           <NavLink to = "/profile" className = "profile" >My Profile</NavLink>
           <NavLink to = "/products" className = "products">Products</NavLink>
-          <NavLink to = "/" className = "home">Home</NavLink>
+          <NavLink to = "/"  exact className = "home">Home</NavLink>
         </div>
         <Switch>
           <Route exact path = "/" component = {HomePage}></Route>

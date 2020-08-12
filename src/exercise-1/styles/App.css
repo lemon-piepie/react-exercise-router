@@ -1,0 +1,20 @@
+.header{
+    height: 80px;
+    line-height: 80px;
+    background-color: grey;
+}
+.home, .profile, .about{
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 50px;
+    float: right;
+}
+p{
+    font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 100px;
+}
+.active{
+    text-decoration: underline !important;
+}

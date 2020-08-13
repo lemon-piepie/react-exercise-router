@@ -13,7 +13,7 @@ class App extends Component {
         <Router>
           <Switch>
             <Route exact path='/' component={Home} />
-            <Route exact path='/:user' component={User} />
+            <Route exact path='/:/^[0-9]*$/.exec(user)' component={User} />
             <Route exact path='/about' component={About} />
             <Route path = "*" component={NotMatch} />
           </Switch>            

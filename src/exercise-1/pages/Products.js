@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Link, Route} from 'react-router-dom';
+import { Link} from 'react-router-dom';
 import '../styles/Products.css';
 import Product from './Product';
 
@@ -22,7 +22,7 @@ class Products extends Component {
                   {product.name}
               </Link>
           ))} 
-            <Route  path = "/products/:id" component = {Product}></Route>
+
       </div>
     );
   }

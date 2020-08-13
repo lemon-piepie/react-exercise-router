@@ -19,7 +19,7 @@ class Product extends Component {
           <p>Price: {this.state.products[this.props.match.params.id-1].price} </p>
           <p>Quantity: {this.state.products[this.props.match.params.id-1].quantitiy} </p>
           <p>Desc: {this.state.products[this.props.match.params.id-1].desc} </p>
-          <p>URL:  {this.props.match.path}</p>
+          <p>URL:  {this.props.match.url}</p>
       </div>
     );
   }

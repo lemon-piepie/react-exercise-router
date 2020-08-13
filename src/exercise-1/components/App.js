@@ -11,12 +11,12 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <div className = "header">
+        <nav className = "header">
           <NavLink to = "/about" className = "about" >About Us</NavLink>
           <NavLink to = "/profile" className = "profile" >My Profile</NavLink>
           <NavLink to = "/products" className = "products">Products</NavLink>
           <NavLink to = "/"  exact className = "home">Home</NavLink>
-        </div>
+        </nav>
         <Switch>
           <Route exact path = "/" component = {HomePage}></Route>
           <Route exact path = "/profile" component = {ProfilePage}></Route>
